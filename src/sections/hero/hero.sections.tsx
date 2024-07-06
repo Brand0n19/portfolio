@@ -3,7 +3,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col justify-center p-3 max-w-7xl w-full text-center space-y-5 h-[45rem]">
+    <div className="flex flex-col justify-center p-3 w-full text-center space-y-5 h-svh">
       <p className="font-bold text-sm md:text-lg">
         Hii!! I&apos;m glad you&apos;re here, my name is
       </p>

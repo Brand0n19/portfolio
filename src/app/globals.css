@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-    @apply bg-gray-950 text-stone-50 px-7 md:px-10
+    @apply bg-gray-950 text-stone-50 px-7 md:px-10 pb-10
 
 }
 .stroke{
