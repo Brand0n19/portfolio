@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-gray-950 text-stone-50
+
+}
+.stroke{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #d4d4d4; 
+}
