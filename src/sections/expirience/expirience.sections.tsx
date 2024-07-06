@@ -13,7 +13,7 @@ export default function Expirience() {
       <div className="flex flex-col md:flex-row justify-center  md:justify-evenly overflow-hidden gap-y-7">
         <WorkCard
           workClass="reactCard"
-          title="React Developer Junior"
+          title="Front-end Developer Junior"
           company="DevDatep"
           year="January 2024 - June 2024"
           description="Responsible for developing applications by adapting designs from

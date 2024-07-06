@@ -17,3 +17,6 @@ body{
 .subdescription{
     @apply md:text-sm text-gray-400 text-[12px]
 }
+.shadow-border:hover{
+    filter: drop-shadow(2px 4px 10px white);
+}
