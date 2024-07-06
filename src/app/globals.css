@@ -3,10 +3,17 @@
 @tailwind utilities;
 
 body{
-    @apply bg-gray-950 text-stone-50
+    @apply bg-gray-950 text-stone-50 px-7 md:px-10
 
 }
 .stroke{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #d4d4d4; 
+}
+
+.subtitle{
+    @apply text-4xl font-bold tracking-wide
+}
+.subdescription{
+    @apply md:text-sm text-gray-400 text-[12px]
 }

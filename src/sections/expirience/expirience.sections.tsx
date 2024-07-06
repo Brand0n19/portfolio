@@ -5,12 +5,12 @@ export default function Expirience() {
   return (
     <section className="space-y-10 py-10">
       <div className="text-center">
-        <h2 className="text-4xl font-bold tracking-wide">
+        <h2 className="subtitle">
           Work Expirience
         </h2>
-        <p className="text-sm text-gray-400">Brief overview of my profesional expirience</p>
+        <p className="subdescription">Brief overview of my profesional expirience</p>
       </div>
-      <div className="flex justify-evenly overflow-hidden">
+      <div className="flex flex-col md:flex-row justify-center  md:justify-evenly overflow-hidden gap-y-7">
         <WorkCard
           workClass="reactCard"
           title="React Developer Junior"

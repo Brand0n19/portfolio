@@ -12,24 +12,24 @@ import { FaFigma } from "react-icons/fa6";
 export default function Skill() {
   return (
     <section className="py-10">
-      <div className="text-center mb-10">
-      <h2 className="text-4xl font-bold tracking-wide">My Skills</h2>
-        <p className="text-sm text-gray-400">
+      <div className="text-center mb-10 space-y-3">
+      <h2 className="subtitle">My Skills</h2>
+        <p className="subdescription">
           Here are some of the technologies I&apos;m proficient in:
         </p>
       </div>
-      <div className="flex gap-5 flex-wrap text-7xl justify-evenly px-10">
-        <FaReact className=""/>
-        <RiNextjsFill className="" />
+      <div className="flex gap-5 flex-wrap text-5xl md:text-7xl justify-evenly px-10">
+        <FaReact/>
+        <RiNextjsFill />
         <FaHtml5 />
-        <FaCss3Alt className="" />
-        <IoLogoJavascript  className=""/>
-        <SiReactquery className="" />
-        <RiTailwindCssFill  className=""/>
-        <FaGitAlt  className=""/>
-        <GrMysql  className=""/>
-        <FaNodeJs  className=""/>
-        <FaFigma  className=""/>
+        <FaCss3Alt />
+        <IoLogoJavascript />
+        <SiReactquery />
+        <RiTailwindCssFill />
+        <FaGitAlt />
+        <GrMysql />
+        <FaNodeJs />
+        <FaFigma />
       </div>
     </section>
   );

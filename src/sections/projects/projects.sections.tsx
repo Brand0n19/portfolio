@@ -6,15 +6,15 @@ import { DiHtml5 } from "react-icons/di";
 
 export default function Projects() {
   return (
-    <section className="py-10">
-      <div className="text-center mb-10">
-        <h2 className="text-4xl font-bold tracking-wide">My Latest Work</h2>
-        <p className="text-sm text-gray-400">
+    <section className="py-10 ">
+      <div className="text-center mb-10 space-y-3">
+        <h2 className="subtitle">My Latest Work</h2>
+        <p className="subdescription">
           Check out some of my recent projects that showcase my skills and
           creativity.
         </p>
       </div>
-      <div className="flex  flex-wrap justify-evenly gap-5">
+      <div className="flex flex-col md:flex-row md:justify-evenly items-center gap-5">
         <ProjectsDescription
           photo={ecommerce}
           title={"Norkys"}
