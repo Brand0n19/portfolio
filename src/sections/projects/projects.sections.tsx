@@ -1,5 +1,5 @@
 import ProjectsDescription from "@/components/projects.components";
-import assistence from "@/assets/projectsImage/Assistence_system.webp";
+import assistence from "@/assets/projectsImage/assistence_system.webp";
 import ecommerce from "@/assets/projectsImage/e-commerce.webp";
 import landing from "@/assets/projectsImage/landing_page.webp";
 import { DiHtml5 } from "react-icons/di";
